@@ -60,7 +60,7 @@ function draw() {
 
 // functions created listed below-----------------------------------------
 function blueFloor(x,y){
-    strokeWeight(30);
+        strokeWeight(30);
 	stroke(229,204,255);
 	fill(204,229,255);
 	rect(300,120,x,y);
@@ -73,23 +73,23 @@ function pinkCurtain(x,y){
 }
 
 function holders(){
-    stroke(92,56,29);
+    	stroke(92,56,29);
 	strokeWeight(20);
 	line(528,360,448,482);
-    line(540,360,615,482);
-    noStroke();
+    	line(540,360,615,482);
+    	noStroke();
 	fill(92,56,29);
 	rect(508,340,50,20);
 }
 
 function tableSurface(x,y){
-    noStroke();
+    	noStroke();
 	fill("white");
 	ellipse(x*2/3,y*2/3,200,20);
 }
 
 function pencils(){
-    strokeWeight(2);
+    	strokeWeight(2);
 	stroke(163,58,61);
 	line(493,291,485,278);//red pencil
 	stroke(76,98,154);
@@ -99,7 +99,7 @@ function pencils(){
 }
 
 function pencilVase(){
-    noStroke();
+    	noStroke();
 	fill(255,165,228);
 	square(480,300,32);
 	fill(239,216,177);
@@ -107,7 +107,7 @@ function pencilVase(){
 }
 
 function ornament(){
-    fill(255,255,51);
+    	fill(255,255,51);
 	quad(535,328,560,328,552,240,543,240);
 	fill(153,204,255);
 	quad(540,271,555,271,560,328,535,328);
@@ -116,12 +116,12 @@ function ornament(){
 }
 
 function eraser(){
-    fill(206,255,254);
+    	fill(206,255,254);
 	rect(528,326,20,10);
 }
 
 function easel(){
-    strokeWeight(20);
+   	strokeWeight(20);
 	stroke(237,202,158);
 	line(640,512,731,168);
 	line(812,162,850,512);
@@ -131,7 +131,7 @@ function easel(){
 }
 
 function drawingBoard(){
-    noStroke();
+    	noStroke();
 	fill(250,241,226);
 	quad(664,389,847,397,842,201,695,205);
 }
